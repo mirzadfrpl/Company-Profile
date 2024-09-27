@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: "Playfair Display", serif;
     box-sizing: border-box;
 }
+
+.navbar {
+  transition: box-shadow 0.3s ease;
+}
+
+.navbar.scrolled {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Partner Section */
 
 .partners-section {
     padding: 20px;
@@ -38,3 +51,8 @@
       transform: translateX(-100%);
     }
   }
+
+  .mt-36 {
+    background-image: url('style/img/bg-hero.png');
+    /* Tambahkan gaya lain sesuai kebutuhan */
+}
