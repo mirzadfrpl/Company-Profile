@@ -6,3 +6,5 @@ window.addEventListener('scroll', () => {
         navbar.classList.remove('shadow-md', 'border-b');
     }
 });
+
+
